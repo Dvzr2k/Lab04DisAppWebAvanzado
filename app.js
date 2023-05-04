@@ -20,7 +20,7 @@ io.on('connection', (socket) => {
 })
 
 app.get('/', (req, resp) => {
-    resp.sendFile(`${__dirname}/cliente/`)
+    resp.sendFile(`${__dirname}/cliente/index.html`)
 })
 
 server.listen(3000,() => {
